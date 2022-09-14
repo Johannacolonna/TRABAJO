@@ -19,7 +19,7 @@ header{
 .imagenytexto{
     width:fit-content;
     height: 800px;
-    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)),url(./TRABAJO-PRACTICO/imagenes\ tp/ba1.jpg);
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)),url(./imagenes\ tp/ba1.jpg);
     background-position:bottom right;
     display:flex;
     justify-content: flex-end;
