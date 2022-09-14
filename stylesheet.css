@@ -1,0 +1,151 @@
+
+
+
+header{
+    color:white;
+    }
+
+.container-fluid{
+    margin-left: 50px !important;
+    margin-right: 60px !important;
+}
+
+
+.nav-link {
+    color:grey !important;
+
+}
+
+.imagenytexto{
+    width:fit-content;
+    height: 800px;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)),url(./TRABAJO-PRACTICO/imagenes\ tp/ba1.jpg);
+    background-position:bottom right;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagenytexto2{
+    color: white;
+    text-align: right;
+    width: 37%;
+    margin-right: 90px;
+    margin-top: 280px;
+    
+
+}
+#resaltar{
+    color:grey !important;
+}
+
+#blanco{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+    color:white;
+}
+.btn-ghost{
+    border-radius:6px;
+    border-color: #ffffff;
+    height: 45px;
+    margin:10px 10px 10px 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: none;
+    color:#ffffff;
+}
+
+.button4 {
+    background-color:none;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+  }
+
+  .button1 {
+    background-color: rgb(60, 179, 60);
+    color:white;
+    border-radius: 6px;
+    border:none;
+    padding: 10px 24px;
+}
+
+.container2{
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+#verde{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:green;
+}
+
+.barra{
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+#textobuenosaires{
+    color:#faf4f4;
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+
+.color{
+    font-size: small;
+    color:rgba(160, 159, 157, 0.921);
+}
+.centrar{
+    text-align: center;
+}
+
+.hawai{
+    display:flex;
+}
+
+.honolulu{
+    width:680px;
+}
+
+.buenosaires{
+    width:680px;
+    background-color: rgb(55, 52, 52);
+}
+
+.btn btn-success{
+    background-color:rgb(20, 172, 20)!important;
+}
+
+footer{
+        background-image: linear-gradient(to right, rgb(21, 46, 64) , rgb(63, 99, 149));
+        color: white;  
+        height: 5em; 
+        width: 100%;
+}
+
+
+
+ul li{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    cursor:pointer;
+    font-size:smaller;
+
+}
+
