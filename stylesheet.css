@@ -5,16 +5,10 @@ header{
     color:white;
     }
 
-.container-fluid{
-    margin-left: 50px !important;
-    margin-right: 60px !important;
-}
-
-
-.nav-link {
-    color:grey !important;
-
-}
+    .nav-link {
+        color:grey !important;
+    
+    }
 
 .imagenytexto{
     width:fit-content;
@@ -132,11 +126,10 @@ header{
 footer{
         background-image: linear-gradient(to right, rgb(21, 46, 64) , rgb(63, 99, 149));
         color: white;  
-        height: 5em; 
-        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        text-align:justify;     
 }
-
-
 
 ul li{
     display: inline-block;
