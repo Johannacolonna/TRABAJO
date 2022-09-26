@@ -1,13 +1,9 @@
-
-
-
 header{
     color:white;
     }
 
-    .nav-link {
+.nav-link {
         color:grey !important;
-    
     }
 
 .imagenytexto{
@@ -99,6 +95,7 @@ header{
 }
 
 .color{
+    text-align: start;
     font-size: small;
     color:rgba(160, 159, 157, 0.921);
 }
@@ -139,6 +136,5 @@ ul li{
     margin-bottom:10px;
     cursor:pointer;
     font-size:smaller;
-
 }
 
