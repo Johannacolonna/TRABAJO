@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tickets</title>
+    <link href="./tickets.js">
+    <link href="./bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./stylesheet.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-dark bg-dark justify-content-end">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+      <img src="./imagenes tp/codoacodo.png" alt="Logo" width="105" height="53" class="d-inline-block align-text">Conf Bs As
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" href="#"><p class="text-white">La conferencia</p>
+      <a class="nav-link active" aria-current="page" href="#">los oradores</a>
+      <a class="nav-link" href="#">El lugar y la fecha</a>
+      <a class="nav-link" href="#">Conviertete en orador</a>
+      <a class="nav-link" href="#"><p class="text-success">Comprar tickets</p></a>
+   </div>
+     </div>
+      </div>
+       </nav>
+    </div>
+  </nav>
+</header>
+    <br>
+    <br>
+<div class="container w-50">
+<div class="row">
+<div class="col">
+    <div class="card border-info">
+      <div class="card-body">
+          <h4 class="card-title text-center">Estudiante</h4>
+          <p class="card-text text-center">Tienen un descuento</p>
+          <h5 class="card-text text-center">80%</h5>
+          <p class="card-text text-center">*presentar documentación</p>
+      </div>
+    </div>
+  </div>
+<div class="col">
+  <div class="card border-info">
+    <div class="card-body">
+        <h4 class="card-title text-center">Trainee</h4>
+        <p class="card-text text-center"> Tienen un descuento</p>
+        <h5 class="card-text text-center">50%</h5>
+        <p class="card-text text-center">*presentar documentación</p>
+      </div>
+    </div>
+  </div>
+<div class="col">
+  <div class="card border-warning">
+    <div class="card-body">
+            <h4 class="card-title text-center">Junior</h4>
+            <p class="card-text text-center">Tienen un descuento</p>
+            <h5 class="card-text text-center">15%</h5>
+            <p class="card-text text-center">*presentar documentación</p>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+<div class="container w-50 text-center">
+
+  <h7>VENTA</h7>
+  <h3>VALOR DE TICKET $ 200</h3>
+
+  <form class="row g-3" id="formulario">
+
+    <div class="col-md-6">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Nombre"
+        required
+      />
+    </div>
+
+    <div class="col-md-6">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Apellido"
+        required
+      />
+    </div>
+    
+    <div class="col-md-12">
+      <input
+        type="email"
+        class="form-control"
+        placeholder="Correo"
+        required
+        
+      />
+    </div>
+    
+    <div class="col-md-6 text-start">
+      <label for="cantidades" class="form-label">Cantidad</label>
+      <input
+        type="number"
+        id="cantidad"
+        class="form-control"
+        placeholder="Cantidad"
+        min="0"
+        required
+      />
+    </div>
+    
+    <div class="col-md-6 text-start" >
+      <label for="categorias" class="form-label">Categoría</label>
+      <select id="categoria" class="form-select">
+        <option id="estudiante">Estudiante</option>
+        <option id="trainee">Trainee</option>
+        <option id="junior">Junior</option>
+      </select>
+    </div>
+    <div class="form-floating">
+      <label for="formGroupExampleInput" class="form-label"> 
+        <p id="calculo">Total a pagar</p>     
+      </label>
+      <input 
+      type="text" 
+      class="form-control bg-info" 
+      placeholder="Resultado" 
+      aria-label="result">
+    </div>
+    
+    <div class="col-6">
+      <button onclick="borrar();"
+      class="btn btn-success w-100" 
+      id="borrar"
+      >Borrar</button>
+    </div>
+
+    <div class="col-6">
+      <button
+      class="btn btn-success w-100" 
+      id="boton" 
+      type="submit">Resumen</button>
+    </div>
+
+  </form>
+</div>
+<br>
+
+<footer>
+        <ul>
+        <li> Preguntas<br>
+             frecuentes   </li>
+        <li> Contáctanos   </li>
+        <li>  Prensa  </li>
+        <li> Conferencias   </li>
+        <li>  Términos y<br> condiciones  </li>
+        <li> Privacidad   </li>
+        <li>  Estudiantes</li>
+        </ul>
+</footer>
+<script src="./bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+<script src="./tickets.js"></script>
+</body>
+</html>
